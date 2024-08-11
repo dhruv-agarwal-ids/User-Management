@@ -42,7 +42,7 @@ Test the GraphQL API
 
 Navigate to http://localhost:3000/graphql in your browser. You can test the following GraphQL queries and mutations:-
 
-Create a User:
+>Create a User:
 
 mutation {
   createUser(createUserInput: {
@@ -60,7 +60,7 @@ mutation {
   }
 }
 
-Get All Users:
+>Get All Users:
 
 query {
   users {
@@ -72,7 +72,7 @@ query {
   }
 }
 
-Get a User by ID:
+>Get a User by ID:
 
 query {
   user(id: "USER_ID") {
@@ -84,7 +84,7 @@ query {
   }
 }
 
-Update a User:
+>Update a User:
 
 mutation {
   updateUser(id: "USER_ID", updateUserInput: {
@@ -98,7 +98,7 @@ mutation {
   }
 }
 
-Delete a User:
+>Delete a User:
 
 mutation {
   removeUser(id: "USER_ID") {
